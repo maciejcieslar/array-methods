@@ -13,5 +13,3 @@ export function every<T>(array: T[], callback: EveryCallback<T>) {
 
   return true;
 }
-
-// [1, 2, 3].every(value => Number.isInteger(value));
