@@ -11,7 +11,6 @@ export function filter<T>(array: T[], callback: FilterCallback<T>) {
     const value = array[index];
 
     if (callback(value, index, array)) {
-      // TODO: well which is it?
       push(result, value);
     }
   }

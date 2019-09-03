@@ -12,9 +12,9 @@ function mutatesArray(firstArray: unknown[], secondArray: unknown[]) {
   return false;
 }
 
-export function logOperation<T>(operationName: string, array: T[], cb: (array: T[]) => unknown) {
+export function logOperation<T>(operationName: string, array: T[], callback: (array: T[]) => unknown) {
   const input = [...array];
-  const result = cb(array);
+  const result = callback(array);
 
   console.log({
     operation: operationName,
