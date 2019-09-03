@@ -1,5 +1,3 @@
-import { testArrayMethod } from './test-utils';
-
 import { values } from './values';
 
 test('should work like values', () => {

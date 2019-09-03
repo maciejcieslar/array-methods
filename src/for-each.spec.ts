@@ -1,6 +1,6 @@
 import { forEach } from './for-each';
 
-test('should work like filter', () => {
+test('should work like forEach', () => {
   const nativeResult = [];
   const methodResult = [];
 
